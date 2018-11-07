@@ -4,11 +4,11 @@ var chocolateBars =
 function addElementToBeginningOfArray(chocolateBars, candy){
   return [candy, ...chocolateBars];
 }
-function destructivelyAddElementToBeginningOfArray(chocolateBars, candy){
+function destructivelyAddElementToBeginningOfArray(chocolateBars){
   chocolateBars.unshift(candy)
   return chocolateBars;
 }
-function addElementToEndOfArray(chocolateBars, candy){
+function addElementToEndOfArray(chocolateBars){
   return [...chocolateBars, candy]; 
 }
 function destructivelyAddElementToEndOfArray(chocolateBars, candy){
